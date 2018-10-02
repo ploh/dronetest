@@ -1,12 +1,13 @@
 clone:
   git:
-    image: plugins/git:next
+    image: plugins/git
     pull: true
 
 pipeline:
   test:
     image: alpine
     commands:
+      - echo 'fifth branch needs stuff in the beginning'
       - echo 'success'
       - echo 'that must really be here'
       - echo 'again'
