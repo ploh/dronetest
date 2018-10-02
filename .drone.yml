@@ -9,3 +9,4 @@ pipeline:
     commands:
       - echo 'success'
       - echo 'again'
+      - echo 'that is a must'
