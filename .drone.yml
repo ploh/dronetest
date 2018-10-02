@@ -8,4 +8,5 @@ pipeline:
     image: alpine
     commands:
       - echo 'success'
+      - echo 'that must really be here'
       - echo 'again'
