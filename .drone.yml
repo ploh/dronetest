@@ -1,0 +1,10 @@
+clone:
+  git:
+    image: plugins/git:next
+    pull: true
+
+pipeline:
+  test:
+    image: alpine
+    commands:
+      - echo 'success'
