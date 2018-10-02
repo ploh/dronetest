@@ -7,6 +7,8 @@ pipeline:
   test:
     image: alpine
     commands:
+      - echo 'fifth branch needs stuff in the beginning'
+      - exit 1
       - echo 'success'
       - echo 'that must really be here'
       - echo 'again'
