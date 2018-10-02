@@ -10,3 +10,4 @@ pipeline:
       - echo 'success'
       - echo 'that must really be here'
       - echo 'again'
+      - echo 'we definitely need this'
