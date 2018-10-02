@@ -8,3 +8,4 @@ pipeline:
     image: alpine
     commands:
       - echo 'success'
+      - echo 'again'
